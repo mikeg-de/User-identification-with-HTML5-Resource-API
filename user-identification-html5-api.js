@@ -8,6 +8,7 @@
 */
 
 var imageCheck = document.createElement("img");
+// Example resource with timing-allow-origin:* https://www.facebook.com/rsrc.php/v2/yx/r/krVStNVwu9p.png
 imageCheck.src = "YOUR-FULL-RESOURCE-PATH";
 imageCheck.style = "display: block; visibility: hidden;";
 imageCheck.id = "imageCheck";
